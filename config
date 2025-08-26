@@ -1,0 +1,132 @@
+# neofetch config
+print_info() {
+  prin " "
+  prin " "
+  prin "   ˚₊‧꒰ა ♡ ໒꒱ ‧₊˚ "
+  prin " "
+
+  info "      USER" title
+  prin " ˚₊‧⁺˖. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. "
+  info "OS" distro
+  info "Host" model
+  info "Kernel" kernel
+  #info "Uptime" uptime
+  info "Shell" shell
+  #info "Terminal" term
+  #info "CPU" cpu
+  #info "GPU" gpu
+  info "Memory" memory
+  info "Battery" battery
+
+  prin " ˚₊‧⁺˖. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. "
+  #info cols
+}
+
+# Title
+title_fqdn="off"
+
+# Kernel
+kernel_shorthand="on"
+
+# Distro
+# Shorten the output of the distro function
+distro_shorthand="off"
+
+# Show/Hide OS Architecture
+# Show 'x86_64', 'x86' and etc in 'Distro:' output
+os_arch="on"
+
+# Uptime
+# Shorten the output of the uptime function
+uptime_shorthand="on"
+
+# Memory
+# Show memory pecentage in output
+memory_percent="on"
+
+# Change memory output unit
+memory_unit="gib"
+
+# Packages
+# Show/Hide Package Manager names
+package_managers="tiny"
+
+# Shell
+# Show the path to $SHELL
+shell_path="on"
+
+# Show $SHELL version
+shell_version="off"
+
+# CPU
+# CPU speed type
+speed_type="bios_limit"
+
+# CPU speed shorthand
+speed_shorthand="off"
+
+# Enable/Disable CPU brand in output.
+cpu_brand="on"
+
+# CPU Speed
+cpu_speed="on"
+
+# CPU Cores
+# Display CPU cores in output
+cpu_cores="logical"
+
+# CPU Temperature
+cpu_temp="off"
+
+# GPU
+# Enable/Disable GPU Brand
+gpu_brand="on"
+
+# Which GPU to display
+gpu_type="all"
+
+# Resolution
+# Display refresh rate next to each monitor
+refresh_rate="off"
+
+# Gtk Theme / Icons / Font
+# Shorten output of GTK Theme / Icons / Font
+gtk_shorthand="off"
+# Enable/Disable gtk2 Theme / Icons / Font
+gtk2="on"
+# Enable/Disable gtk3 Theme / Icons / Font
+gtk3="on"
+
+# Public IP timeout
+public_ip_timeout=2
+
+# Desktop Environment
+# Show Desktop Environment version
+de_version="on"
+
+# Disk
+# Which disks to display
+disk_show=('/')
+
+# Disk subtitle
+disk_subtitle="mount"
+
+# Disk percent
+disk_percent="on"
+
+# Backend Settings
+# Image backend
+# path to ascii art u want to use
+image_source="/home/kitty/Pictures/moon1.txt" #moon ascii art
+
+# Crop mode
+crop_mode="normal"
+
+# Crop offset
+crop_offset="center"
+
+# Image size
+image_size="50%"
+
+# Gap between image and text
+gap=3
